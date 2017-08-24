@@ -1,0 +1,64 @@
+@charset "utf-8";
+	
+	body{
+		margin: 0 auto;
+		background-image: url("../_imagens/imagem_fundo.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+    	background-size: 100% 100%;
+	}
+	.caixa_transparente{
+		text-align: center;					/* alinhamento de texto */
+		box-shadow: 0px 0px 10px black;		/* sombra da caixa */
+		width: 320px;						/* comprimento da imagem */
+		height: 200px;						/* altura da imagem */
+		border-radius: 4px;					/* fazer arredondamento de borda */
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	#logomaster{
+		width: 140px;
+		height: 40px;
+		margin: 0 auto;
+		margin-top: 2%;
+		margin-left: 45%;
+	}
+	#logoretangulo{
+		width: 130px;
+		height: 133px;
+		margin: 0 auto;
+		margin-top: 2%;
+		margin-left: 45%;
+	}
+	.campos input{
+		width: 250px;
+		height: 30px;
+		font-size: 15px;
+		margin-top: 20px;
+		margin-bottom: -10px;
+		padding-left: 30px;
+		border-radius: 4px;
+	}
+	.campos:before{
+		content: "\f007";
+		position: absolute;
+		font-family: "FontAwesome";
+		padding-left: 5px;
+		padding-top: 23px;
+		font-size: 30px;
+		color: #808080;
+	}
+	.campos:nth-child(2)::before{
+		content: "\f023";
+	}
+	.botao{
+		width: 280px;
+        height: 30px;
+        font-family: arial;
+        font-size: 15pt;
+        background-color: #3D8BCD;
+		color: white;
+		border-style: none;
+		border-radius: 5px;
+		margin-top: 60px;
+	}
